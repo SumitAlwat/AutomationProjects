@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Sumit\eclipse-workspace\JunitLearning\src\test\java\JunitLearning"/>
+			<item value="C:\Users\Sumit\eclipse-workspace\Project\src"/>
+			<item value="C:\Users\Sumit\eclipse-workspace\Project1\src\test\java\Project2.java"/>
+			<item value="C:\Users\Sumit\eclipse-workspace\TestNGLearning\src\test\java\TestNGLearning\P002.java"/>
 			<item value="C:\Users\Sumit\eclipse-workspace\seleniumLearning"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,17 +30,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="TestNGLearning"/>
-			<item value="JunitLearning"/>
-			<item value="seleniumLearning"/>
+			<item value="WebDriverAdvance"/>
+			<item value="assesment"/>
 		</list>
 		<list key="groupId">
-			<item value="001"/>
+			<item value="1"/>
 		</list>
 		<list key="artifactId">
-			<item value="TestNGLearning"/>
-			<item value="JunitLearning"/>
-			<item value="seleniumLearning"/>
+			<item value="WebDriverAdvance"/>
+			<item value="assesment"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
