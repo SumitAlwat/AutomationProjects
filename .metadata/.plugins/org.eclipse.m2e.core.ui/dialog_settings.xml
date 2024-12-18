@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Sumit\eclipse-workspace\FinalAssignment\pom.xml"/>
 			<item value="C:\Users\Sumit\eclipse-workspace\JunitLearning\src\test\java\JunitLearning"/>
 			<item value="C:\Users\Sumit\eclipse-workspace\Project\src"/>
 			<item value="C:\Users\Sumit\eclipse-workspace\Project1\src\test\java\Project2.java"/>
@@ -30,6 +31,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="Assignment"/>
 			<item value="WebDriverAdvance"/>
 			<item value="assesment"/>
 		</list>
@@ -37,6 +39,7 @@
 			<item value="1"/>
 		</list>
 		<list key="artifactId">
+			<item value="Assignment"/>
 			<item value="WebDriverAdvance"/>
 			<item value="assesment"/>
 		</list>
