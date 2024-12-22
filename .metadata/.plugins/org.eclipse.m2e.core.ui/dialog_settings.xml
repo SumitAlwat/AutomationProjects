@@ -31,6 +31,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ProjectParabank"/>
 			<item value="Assignment"/>
 			<item value="WebDriverAdvance"/>
 			<item value="assesment"/>
@@ -39,6 +40,7 @@
 			<item value="1"/>
 		</list>
 		<list key="artifactId">
+			<item value="ProjectParabank"/>
 			<item value="Assignment"/>
 			<item value="WebDriverAdvance"/>
 			<item value="assesment"/>
