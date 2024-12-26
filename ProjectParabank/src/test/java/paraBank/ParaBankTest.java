@@ -160,6 +160,8 @@ public class ParaBankTest {
 		WebElement Apply = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[3]/div[2]/div[1]/div[1]/form[1]/table[1]/tbody[1]/tr[4]/td[2]/input[1]"));
 		Apply.click();
 		
+		Thread.sleep(1000);
+		
 //----------------------logout--------------------------------------------------------------------------------------------------------------------------------		
 		
 		WebElement logout = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[3]/div[1]/ul[1]/li[8]/a[1]"));
