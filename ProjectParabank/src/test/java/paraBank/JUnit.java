@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import static org.junit.Assert.assertEquals;
 
 public class JUnit{
 	
@@ -29,7 +30,13 @@ public class JUnit{
 	public void testA() throws InterruptedException {
 		driver.get("https://parabank.parasoft.com/parabank/index.htm");
 		Thread.sleep(1000);
+		
+		String title = driver.getTitle();
+		String Title = "ParaBank";
+		assertEquals(Title, title);
 		}
+	
+	
 	
 	@Test
 	public void testB()  {
@@ -76,7 +83,7 @@ public class JUnit{
 		WebElement btn = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[3]/div[2]/form[1]/table[1]/tbody[1]/tr[13]/td[2]/input[1]"));
 		btn.click();
 		
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 	}
 	
 	@Test 
@@ -207,8 +214,4 @@ public class JUnit{
 		Thread.sleep(2000);
 
 	}
-	
-	
-	
-
 }
